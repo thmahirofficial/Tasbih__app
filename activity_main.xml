@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20sp"
+    android:backgroundTint="#0DE454"
+    android:divider="@android:drawable/button_onoff_indicator_on"
+    android:foreground="?attr/colorControlHighlight"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    android:outlineAmbientShadowColor="?attr/colorControlHighlight"
+    android:background="@color/teal_700">
+
+
+    <TextView
+        android:id="@+id/tvcount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?attr/colorControlNormal"
+        android:foregroundTint="#E3DACD"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#220A0A"
+        android:textSelectHandle="@android:drawable/ic_lock_idle_alarm"
+        android:textSize="80sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:background="#7E8EE8"
+        android:drawableBottom="@android:drawable/ic_lock_idle_alarm"
+        android:text="Add One"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:background="#C51D1D"
+        android:drawableBottom="@android:drawable/ic_menu_revert"
+        android:text="Sub one"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:background="#FFEB3B"
+        android:drawableBottom="@android:drawable/btn_dialog"
+        android:text="Reset"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="399dp"
+        android:layout_height="231dp"
+        app:srcCompat="@drawable/ic_stat_name"
+        tools:srcCompat="@drawable/ic_stat_name" />
+
+
+</LinearLayout>
